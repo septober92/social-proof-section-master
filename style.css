@@ -52,7 +52,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 74px;
+  margin-bottom: 70px;
 }
 
 .hd-left {
@@ -85,22 +85,18 @@ main {
 }
 
 .hd-right img {
-  width: 15px;
-  margin-right: 5px;
+  width: 17px;
+  margin-right: 8px;
 }
 
 .hd-right img:nth-of-type(5) {
   margin-right: 30px;
 }
 
-.rating span {
-  /* display: inline-block; */
-}
-
 .rating {
   display: flex;
   align-items: center;
-  width: 445px;
+  width: 430px;
   height: 55px;
   padding: 15px 30px;
   border-radius: 8px;
@@ -117,6 +113,7 @@ main {
 
 .n3 {
   align-self: flex-end;
+  margin-bottom: 0;
 }
 
 .reviews-container {
@@ -136,10 +133,6 @@ main {
   border-radius: 8px;
   background-color: var(--very-dark-magenta);
   margin-right: 30px;
-}
-
-.review:nth-of-type(3) {
-  margin-right: 0;
 }
 
 .name-container {
@@ -177,4 +170,23 @@ main {
 
 .rw-3 {
   align-self: flex-end;
+  margin-right: 0;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: var(--dark-grayish-magenta);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
